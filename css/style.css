@@ -1,0 +1,231 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Montserrat',sans-serif;
+}
+
+.width {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.link {
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+}
+
+header a {
+	margin: 30px 0;
+}
+
+header a:hover {
+	border-bottom: 1px solid  #333;
+}
+
+.info .width {
+	padding: 160px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info {
+	background: linear-gradient(207deg, rgba(0, 0, 0, .6), rgba(128, 128, 128, .5)), url(../image/main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+}
+
+.info a {
+	color: #fff;
+}
+
+.main-title {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+.main-text {
+	font-size: 24px;
+	padding: 15px 0;
+}
+
+.record a {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.record {
+	margin: 15px 0;
+	padding: 15px;
+	background-color: #adacac;
+	border-radius: 5px;
+}
+
+.record:hover {
+	background-color: #c3c2c2;
+}
+
+.serv .width {
+	padding: 60px 0;
+}
+
+.title {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.text {
+	font-size: 19px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.advan {
+	background: linear-gradient(207deg, rgba(220, 220, 220, .9), rgba( 255, 255, 255, .6)), url(../image/advan.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.advan .width {
+	padding: 60px 0;
+}
+
+.services, .advantages {
+	display: flex;
+}
+
+.service, .advantage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 50%;
+}
+
+.service:hover {
+	background-color: #D3D3D3;
+}
+
+.name, .description, .price, .details {
+	padding-top: 10px;
+}
+
+.description {
+	font-size: 15px;
+	text-align: center;
+}
+
+.name, .price {
+	font-weight: bold;
+	text-align: center;
+}
+
+.details {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #adacac;
+	border-radius: 5px;
+}
+
+.details:hover {
+	background-color: #c3c2c2;
+}
+
+.details a {
+	color: #fff;
+	font-size: 15px;
+}
+
+.details a:hover {
+	color: #333;
+}
+
+.advantage {
+	margin: 15px;
+	background-color: #fff;
+}
+
+.about .width {
+	padding: 60px 0;
+}
+
+.about-info {
+	display: flex;
+}
+
+.ab-fo {
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+.ab-fo p {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 1230px) {
+	.about-info {
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ab-fo {
+		padding-left: 0px;
+		padding-top: 20px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.link {
+		flex-wrap: wrap;
+	}
+
+	header a {
+		margin: 20px 0;
+		padding: 0 10px;
+	}
+
+	.main-title {
+		text-align: center;
+	}
+
+	.main-text {
+		text-align: center;
+	}
+
+	.services, .advantages {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.service, .advantage {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	img {
+		width: 300px;
+	}
+}
+
+@media (max-width: 400px) {
+	img {
+		width: 200px;
+	}
+}
